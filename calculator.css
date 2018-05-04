@@ -1,15 +1,15 @@
-*{
+* {
     border: none;
-    font-family: 'Open Sana',sans-serif;
+    font-family: 'Open Sana', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
 
 }
 
-.center{
+.center {
     background-color: #fff;
     border-radius: 50%;
     width: 600px;
@@ -17,17 +17,18 @@ body{
     margin: auto;
 }
 
-h1{
+h1 {
     color: #495678;
     font-size: 30px;
     margin-top: 20px;
     padding-top: 50px;
+    /*此元素将显示为块级元素，此元素前后会带有换行符。*/
     display: block;
     text-align: center;
     text-decoration: none;
 }
 
-a{
+a {
     color: #495678;
     font-size: 30px;
     display: block;
@@ -36,7 +37,7 @@ a{
     padding-top: 20px;
 }
 
-form{
+form {
     background-color: #495678;
     box-shadow: 4px 4px #3d4a65;
     margin: 40px auto;
@@ -45,7 +46,7 @@ form{
 }
 
 /*input 定义 类型属性*/
-.btn{
+.btn {
     outline: none;
     cursor: pointer;
     font-size: 20px;
@@ -54,15 +55,15 @@ form{
     margin: 5px 0 5px 10px;
 }
 
-.btn:first-child{
+.btn:first-child {
     margin: 5px 0 5px 10px;
 }
 
-.btn,#display,form{
+.btn, #display, form {
     border-radius: 25px;
 }
 
-#display{
+#display {
     outline: none;
     background-color: #98d1dc;
     box-shadow: inset 6px 6px 0px #3facc0;
@@ -75,13 +76,13 @@ form{
     margin-left: 10px;
 }
 
-.number{
+.number {
     background-color: #72778b;
     box-shadow: 0 5px #5f6680;
     color: #dededc;
 }
 
-.number:active{
+.number:active {
     box-shadow: 0 2px #5f6680;
     -webkit-transform: translateY(2px);
     -ms-transform: translateY(2px);
@@ -91,21 +92,26 @@ form{
 
 .operator {
     background-color: #dededc;
+    /*添加阴影*/
     box-shadow: 0 5px #bebebe;
     color: #72778b;
 }
+
 .operator:active {
     box-shadow: 0 2px #bebebe;
+    /*css transform*/
     -webkit-transform: translateY(2px);
     -ms-transform: translateY(2px);
     -moz-tranform: translateY(2px);
     transform: translateY(2px);
 }
+
 .other {
     background-color: #e3844c;
     box-shadow: 0 5px #e76a3d;
     color: #dededc;
 }
+
 .other:active {
     box-shadow: 0 2px #e76a3d;
     -webkit-transform: translateY(2px);
