@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML CSS, JavaScript 计算器</title>
+    <link type="text/css" rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+<div class="center">
+    <h1>HTML CSS, JavaScript 计算器</h1>
+    <a href="https://github.com/Yxjie/HTML-CSS-JavaScript-.git" target="_blank">Github源码地址</a>
+    <form name="calculator">
+        <input type="button" id="clear" class="btn other" value="C" onclick="clearNum();">
+        <input type="text" id="display">
+        <br>
+
+        <input type="button" class="btn number" value="7" onclick="get(this.value);">
+        <input type="button" class="btn number" value="8" onclick="get(this.value);">
+        <input type="button" class="btn number" value="9" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="+" onclick="get(this.value);">
+        <br>
+
+        <input type="button" class="btn number" value="4" onclick="get(this.value);">
+        <input type="button" class="btn number" value="5" onclick="get(this.value);">
+        <input type="button" class="btn number" value="6" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="*" onclick="get(this.value);">
+        <br>
+
+        <input type="button" class="btn number" value="1" onclick="get(this.value);">
+        <input type="button" class="btn number" value="2" onclick="get(this.value);">
+        <input type="button" class="btn number" value="3" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="-" onclick="get(this.value);">
+        <br>
+
+        <input type="button" class="btn number" value="0" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="." onclick="get(this.value);">
+        <input type="button" class="btn operator" value="/" onclick="get(this.value);">
+        <input type="button" class="btn other" value="=" onclick="calculates();">
+
+    </form>
+
+</div>
+</body>
+</html>
